@@ -6,6 +6,7 @@ This API detects whether a URL is a legitimate or phishing attempt, based on the
 
 - [Phishing Site Detector API](#phishing-site-detector-api)
 - [Features](#features)
+- [Technologies Used](#technologies-used)
 - [Machine Learning Model](#machine-learning-model)
   - [Dataset](#dataset)
   - [Model](#model)
@@ -24,6 +25,15 @@ This API detects whether a URL is a legitimate or phishing attempt, based on the
 - Accepts a URL and threshold in JSON format.
 - Uses machine learning model to predict if the given URL is legitimate or phishing site.
 - Returns URL, the prediction, and the threshold used.
+
+## Technologies Used
+
+This API is built using the following tools and technologies:
+
+- **Python**
+- **Google Colab**: Platform used for developing and training the machine learning model.
+- **FastAPI**: Web framework for building APIs with Python.
+- **Postman**: Tool used for testing and documenting the API endpoints.
 
 ## Machine Learning Model
 
